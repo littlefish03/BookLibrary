@@ -9,7 +9,7 @@ BookLibrary
  * 输入 sudo apt-get install sqlite3 安装sqlite3
  * 输入 sqlite3 book.db < book.sql 创建数据库
  * 在项目根目录下执行. virtualenv --no-site-packages venv 创建虚拟机运行环境
- * venv/bin/activate， 开启虚拟机
+ * 然后运行 . venv/bin/activate， 开启虚拟机
  * 安装FLask模块 输入pip install Flask
  * 输入deactive, 关闭虚拟机
  * 在虚拟机开启情况下，输入python book.py，然后在浏览器中打开127.0.0.1:5000即可访问
